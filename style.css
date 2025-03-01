@@ -1,0 +1,95 @@
+
+/* Element Selectors
+-------------------------------------------------------------------------------------------------------- */
+
+/* Changing the default font of the text and the background color on the page */
+html {
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 20px;
+    background: rgb(177, 238, 200);
+}
+
+/* Changing the color of all text in the body */
+body{
+    color: rgb(214, 20, 20);
+}
+
+/*making the table to have a grid like structure and not just randomly spaced based on the size of entry*/
+table{
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 25%;
+}
+
+/* making a border around all of the cells and aligning them */
+th, td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+
+/* Bolding H1 */
+h1{
+    font-weight: bold;
+}
+
+/* Bolding and Underlining H2 */
+h2{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* adding a margin to the text */
+p{
+    margin: 1rem;
+}
+
+/* centering the form */
+form{
+    text-align: center;
+}
+
+/* making the buttons bigger */
+button{
+    padding: 25px 50px;
+    font-size: 25px;
+}
+
+/* Add a change of background and text color when hovering over the form submit button */
+button:hover{
+    background-color: rgb(77, 12, 3);
+    color: aliceblue;
+}
+
+/* Class Selectors
+-------------------------------------------------------------------------------------------------------- */
+
+/* formatting to look like a button */
+.donate-button {
+    display: inline-block;
+    padding: 30px 60px;
+    background-color: #fcfcfc;
+    color: rgb(77, 12, 3);
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* making the similar change while hovering the donate button to the
+background and text color like the other button */
+.donate-button:hover{
+    background-color: rgb(77, 12, 3);
+    color: aliceblue;
+}
+  
+
+/* ID Selectors
+-------------------------------------------------------------------------------------------------------- */
+
+/* Make the list and images go side by side as compared to up and down. */
+#unordered_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
