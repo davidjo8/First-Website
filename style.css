@@ -18,7 +18,7 @@ body{
 table{
     table-layout: fixed;
     border-collapse: collapse;
-    width: 25%;
+    width: 35%;
 }
 
 /* making a border around all of the cells and aligning them */
@@ -30,12 +30,12 @@ th, td{
 
 
 /* Bolding H1 */
-h1{
+h2{
     font-weight: bold;
 }
 
 /* Bolding and Underlining H2 */
-h2{
+h3{
     font-weight: bold;
     text-decoration: underline;
 }
@@ -92,4 +92,15 @@ background and text color like the other button */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+/* I want the testimones to be easily visible by centering and slightly pop by being bold */
+#testimonies{
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Make the donate html exciting with confetti when I can figure out how to do it. */
+#Donate_html{
+    
 }
