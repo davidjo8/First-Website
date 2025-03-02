@@ -82,7 +82,19 @@ background and text color like the other button */
     background-color: rgb(77, 12, 3);
     color: aliceblue;
 }
-  
+/* making the links on the different bios easier to see/click */
+.links a{
+    text-decoration: none;
+    margin-right: 3 rem;
+    font-size: 24px;
+    box-shadow: 2px 1px rgb(253, 253, 253);
+}
+
+/* make it more noticable that the link is being hovered over. */
+.links:hover{
+    background-color: black;
+    color: rgb(216, 13, 13);
+}
 
 /* ID Selectors
 -------------------------------------------------------------------------------------------------------- */
